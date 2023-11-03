@@ -35,7 +35,7 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://go54.com/docs"
     },
     {
       "name": "Community",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Domains",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
