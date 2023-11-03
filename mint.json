@@ -89,11 +89,11 @@
     {
       "group": "Essentials",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation"
+        "api-reference/sample/markdown",
+        "api-reference/sample/code",
+        "api-reference/sample/images",
+        "api-reference/sample/settings",
+        "api-reference/sample/navigation"
       ]
     }
   ],
