@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Go54",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/full_logo.svg",
+    "light": "/logo/full_logo_white.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -89,9 +89,11 @@
       "group": "Communication",
       "pages": [
         "api-reference/general/communication/get-started",
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/general/communication/sms",
+        "api-reference/general/communication/voice",
+        "api-reference/general/communication/whatsapp",
+        "api-reference/general/communication/email",
+        "api-reference/general/communication/verification"
       ]
     }
   ],
