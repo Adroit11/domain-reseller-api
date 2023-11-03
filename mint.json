@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Go54",
   "logo": {
-    "dark": "/logo/full_logo.svg",
-    "light": "/logo/full_logo_white.svg"
+    "dark": "/logo/full_logo_white.svg",
+    "light": "/logo/full_logo.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
