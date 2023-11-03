@@ -70,11 +70,23 @@
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction"
+        "api-reference/introduction",
+        "api-reference/products"
       ]
     },
     {
       "group": "Domains",
+      "pages": [
+        "api-reference/general/domain/api-structure",
+        "api-reference/general/domain/error-codes",
+        "api-reference/general/domain/authentication",
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Communication",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
