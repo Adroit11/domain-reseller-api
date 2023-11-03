@@ -29,6 +29,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "SDK & Libraries",
+      "url": "sdk-libraries"
     }
   ],
   "anchors": [
