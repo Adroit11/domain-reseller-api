@@ -80,14 +80,15 @@
         "api-reference/general/domain/api-structure",
         "api-reference/general/domain/error-codes",
         "api-reference/general/domain/authentication",
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/domain/get",
+        "api-reference/endpoint/domain/create",
+        "api-reference/endpoint/domain/delete"
       ]
     },
     {
       "group": "Communication",
       "pages": [
+        "api-reference/general/communication/get-started",
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
