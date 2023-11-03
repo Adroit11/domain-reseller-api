@@ -58,16 +58,6 @@
       ]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation"
-      ]
-    },
-    {
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction",
@@ -94,6 +84,16 @@
         "api-reference/general/communication/whatsapp",
         "api-reference/general/communication/email",
         "api-reference/general/communication/verification"
+      ]
+    },
+    {
+      "group": "Essentials",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation"
       ]
     }
   ],
