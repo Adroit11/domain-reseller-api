@@ -87,11 +87,7 @@
         "api-reference/general/communication/voice",
         "api-reference/general/communication/whatsapp",
         "api-reference/general/communication/email",
-        "api-reference/general/communication/verification",
-        {
-          "name": "Blog",
-          "url": "https://blog.go54.com"
-        }
+        "api-reference/general/communication/verification"
       ]
     },
     {
