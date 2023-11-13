@@ -89,9 +89,8 @@
         "api-reference/general/communication/email",
         "api-reference/general/communication/verification",
         {
-        "name": "Blog",
-        "icon": "newspaper",
-        "url": "https://blog.go54.com"
+          "name": "Blog",
+          "url": "https://blog.go54.com"
         }
       ]
     },
