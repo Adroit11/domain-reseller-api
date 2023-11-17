@@ -72,7 +72,7 @@
       "group": "Domains",
       "pages": [
         "api-reference/general/domain/api-structure",
-        "api-reference/general/domain/error-codes",
+        "api-reference/general/domain/error-code",
         "api-reference/general/domain/authentication",
         "api-reference/endpoint/domain/get",
         "api-reference/endpoint/domain/create",
