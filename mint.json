@@ -65,7 +65,7 @@
       "group": "API Reference",
       "pages": [
         "api-reference/introduction",
-        "api-reference/products"
+        "api-reference/product"
       ]
     },
     {
@@ -88,16 +88,6 @@
         "api-reference/general/communication/whatsapp",
         "api-reference/general/communication/email",
         "api-reference/general/communication/verification"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "api-reference/sample/markdown",
-        "api-reference/sample/code",
-        "api-reference/sample/images",
-        "api-reference/sample/settings",
-        "api-reference/sample/navigation"
       ]
     }
   ],
