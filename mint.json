@@ -52,6 +52,12 @@
       "url": "https://blog.go54.com"
     }
   ],
+  "api": {
+    "baseUrl": "https://ennov8.com.ng/go54/api",
+    "auth": {
+      "method": "bearer"
+    }
+  },
   "navigation": [
     {
       "group": "Get Started",
@@ -69,14 +75,31 @@
       ]
     },
     {
+      "group": "Authentication",
+      "pages": [
+        "api-reference/endpoint/auth/register",
+        "api-reference/endpoint/auth/login",
+        "api-reference/endpoint/auth/forgot",
+        "api-reference/endpoint/auth/refresh",
+        "api-reference/endpoint/auth/resendverification",
+        "api-reference/endpoint/auth/reset",
+        "api-reference/endpoint/auth/verify"
+      ]
+    },
+    {
       "group": "Domains",
       "pages": [
-        "api-reference/general/domain/api-structure",
-        "api-reference/general/domain/error-code",
-        "api-reference/general/domain/authentication",
         "api-reference/endpoint/domain/get",
-        "api-reference/endpoint/domain/create",
-        "api-reference/endpoint/domain/delete"
+        "api-reference/endpoint/domain/create"
+      ]
+    },
+    {
+      "group": "Carts",
+      "pages": [
+        "api-reference/endpoint/user/cart/view",
+        "api-reference/endpoint/user/cart/clear",
+        "api-reference/endpoint/user/cart/delete",
+        "api-reference/endpoint/user/cart/create"
       ]
     },
     {
