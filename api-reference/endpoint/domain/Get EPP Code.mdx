@@ -1,12 +1,14 @@
 ---
-title: "Get the Registrar Lock of a Domain"
-description: "Get the lock state of a domain under your account"
-icon: 'lock'
+title: "Get the EPP Code of a Domain"
+openapi: 'Get the epp code of a domain https://www.whogohost.com/host/modules/addons/DomainsReseller/api/index.php'
+description: "Obtain the EPP Code of a domain"
+icon: 'domain'
 ---
-This command is used to get the lock state of a domain under your account.
+
+This command is used to obtain the EPP Code of a domain.
 
 ## Endpoint
-**GET** - `/domains/{domain}/lock`
+**GET** - `/domains/{domain}/eppcode`
 
 ## Request Parameters
 
@@ -14,11 +16,11 @@ This command is used to get the lock state of a domain under your account.
 |--------|------|-----------|--------------|
 | domain | text | Yes       | Domain name  |
 
-## Sample Request
+## Sample Request for EPP code
 
 ```php
 $endpoint = "https://www.whogohost.com/host/modules/addons/DomainsReseller/api/index.php";
-$action = "/domains/example.com/lock";
+$action = "/domains/example.com/eppcode";
 $params = [
     "domain" => "example.com",
 ];

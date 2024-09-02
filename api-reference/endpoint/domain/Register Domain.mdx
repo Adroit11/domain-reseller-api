@@ -1,33 +1,29 @@
 ---
-title: "Transfer Domain"
-description: "Send a transfer command to the registrar"
-icon: 'domain'
+title: 'Register domain'
+openapi: 'Register domain https://www.whogohost.com/host/modules/addons/DomainsReseller/api/index.php'
 ---
-
-
-The transfer action is used to send a transfer command to the registrar.
+The register action is used to send a Register command to the registrar.
 
 ## Endpoint
-**POST** - `/order/domains/transfer`
+**POST** - `/order/domains/register`
 
 ## Request Parameters
 
 | Name         | Type    | Required? | Description                                                   |
 |--------------|---------|-----------|---------------------------------------------------------------|
-| domain       | text    | Yes       | Domain name                                                   |
-| eppcode      | text    | Yes       | EPP code of the domain to be transferred                      |
-| regperiod    | numeric | Yes       | Registration period                                           |
+| domain       | text    | Yes       | Registration period                                           |
+| domainfields | text    | No        | Additional domain fields. This can be left empty              |
 | addons       | array   | No        | Enables DNS management, email forwarding, and/or ID protection for this domain |
 | nameservers  | array   | Yes       | Nameserver information. `ns1` and `ns2` are required. `ns3`, `ns4`, `ns5` are optional |
 | contacts     | array   | Yes       | Contact information for registrant, tech, billing, admin      |
 
 ### Nameservers Structure
 
-- **nameserver1**: text
-- **nameserver2**: text
-- **nameserver3**: text
-- **nameserver4**: text
-- **nameserver5**: text
+- **ns1**: text, # nameserver1
+- **ns2**: text, # nameserver2
+- **ns3**: text, # nameserver3
+- **ns4**: text, # nameserver4
+- **ns5**: text, # nameserver5
 
 ### Contacts Structure
 
@@ -91,18 +87,17 @@ The transfer action is used to send a transfer command to the registrar.
 - **country**: text
 - **phonenumber**: text
 
-## Sample Transfer Domain Request
+## Sample Register Domain Request
 
 ```php
 $endpoint = "https://www.whogohost.com/host/modules/addons/DomainsReseller/api/index.php";
-$action = "/order/domains/transfer";
+$action = "/order/domains/register";
 $params = [
     "domain" => "example.com",
-    "eppcode" => "123GJE4",
     "regperiod" => "1",
     "nameservers" => [
-        "nsa.whogohost.com",
-        "nsb.whogohost.com",
+        "ns1" => "nsa.whogohost.com",
+        "ns2" => "nsb.whogohost.com",
     ],
     "contacts" => [
         "registrant" => [
