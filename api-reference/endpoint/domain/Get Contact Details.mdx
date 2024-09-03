@@ -1,12 +1,15 @@
 ---
-title: "Get the Registrar Lock of a Domain"
-description: "Get the lock state of a domain under your account"
-icon: 'lock'
+title: "Get the Contact Information of a Domain"
+description: "Get the contact information of a domain under your account"
+icon: 'contact'
 ---
-This command is used to get the lock state of a domain under your account.
+
+
+
+This command is used to get the contact information of a domain under your account.
 
 ## Endpoint
-**GET** - `/domains/{domain}/lock`
+**GET** - `/domains/{domain}/contact`
 
 ## Request Parameters
 
@@ -14,11 +17,11 @@ This command is used to get the lock state of a domain under your account.
 |--------|------|-----------|--------------|
 | domain | text | Yes       | Domain name  |
 
-## Sample Request
+## Sample Request for Contact Information
 
 ```php
 $endpoint = "https://www.whogohost.com/host/modules/addons/DomainsReseller/api/index.php";
-$action = "/domains/example.com/lock";
+$action = "/domains/example.com/contact";
 $params = [
     "domain" => "example.com",
 ];
@@ -35,3 +38,4 @@ curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, true);
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 $response = curl_exec($curl);
 curl_close($curl);
+
